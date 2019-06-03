@@ -1,3 +1,7 @@
+# JetBrains
+.idea/
+*.iws
+
 # Logs
 logs
 *.log
