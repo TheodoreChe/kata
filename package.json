@@ -1,0 +1,55 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "live & learn",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "flow": "flow src",
+    "test": "jest src",
+    "lint": "eslint src",
+    "precommit": "npm flow && npm lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheodoreChe/kata.git"
+  },
+  "keywords": [
+    "kata"
+  ],
+  "author": "TheodoreChe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheodoreChe/kata/issues"
+  },
+  "homepage": "https://github.com/TheodoreChe/kata#readme",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-flowtype": "^3.9.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.17.1",
+    "rollup": "^1.13.1",
+    "rollup-plugin-flow": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.100.0",
+    "flow-typed": "^2.5.2",
+    "jest": "^24.8.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^5.0.1"
+  }
+}

@@ -1,3 +1,6 @@
+# RollUpBuild
+lib/
+
 # JetBrains
 .idea/
 *.iws

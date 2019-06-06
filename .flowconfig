@@ -1,0 +1,7 @@
+[ignore]
+.*/node_modules/.*
+.*/__test__/.*
+
+[libs]
+./flow/
+./flow-typed/npm/
