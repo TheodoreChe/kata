@@ -1,4 +1,4 @@
-import { get } from '../get';
+import { get } from '../index';
 
 test('Get > single level nesting (array path)', () => {
   expect(get({ foo: 'bar' }, ['foo'])).toBe('bar');

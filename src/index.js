@@ -1,3 +1,3 @@
 // @flow
 
-export { get } from './29_07_2019';
+export { get } from './utils';
