@@ -1,4 +1,4 @@
 // @flow
 
 export { get } from './utils';
-export { moveZeros } from './kata';
+export { moveZeros, validSudoku } from './kata';
